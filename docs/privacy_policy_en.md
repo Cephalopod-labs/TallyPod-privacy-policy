@@ -123,7 +123,7 @@ Depending on your location, you may have the following rights:
 - **Access:** View all your data in the app
 - **Correction:** Edit or update your information at any time
 - **Deletion:** Delete all your data from Profile > Delete All Data
-- **Export:** Export your data to CSV format
+- **Export:** Export your complete account data in machine-readable format (CSV/TXT) - **FREE for all users** (GDPR/CCPA compliance). Premium users also have access to advanced analytics reports with charts and trends.
 
 ### 6.2 GDPR Rights (EU Users)
 
@@ -184,7 +184,77 @@ If you have any questions, concerns, or requests regarding your privacy or this 
 
 ---
 
-## 11. Legal Compliance
+## 11. Account Deletion
+
+### 11.1 How to Delete Your Account
+
+You can permanently delete your TallyPod account and all associated data at any time. There are two ways to do this:
+
+**Method 1: Delete from the App (Recommended)**
+
+1. Open TallyPod and go to **Profile** (bottom navigation)
+2. Scroll down to the **Account Management** section
+3. Tap **"Delete All Data"**
+4. Read the warning message carefully (this action is irreversible)
+5. Confirm deletion
+6. You will be signed out automatically
+
+**Method 2: Request Deletion via Email**
+
+If you cannot access the app or prefer to request deletion via email:
+
+- Send an email to cephalopodlabs@gmail.com
+- Subject: "Account Deletion Request"
+- Include: Your registered email address and reason (optional)
+- We will process your request within **48 hours**
+
+### 11.2 What Data is Deleted
+
+When you delete your account, the following data is permanently removed:
+
+- **Immediately from your device:**
+  - All expense records (receipts, amounts, categories, descriptions)
+  - All income sources and payment periods
+  - All receipt images stored locally
+  - User preferences (theme, language, view mode)
+  - Household memberships and invitations
+  - Local SQLite database (completely wiped)
+
+- **Within 30 days from cloud servers:**
+  - All data stored in Supabase (PostgreSQL database)
+  - User account information (email, name, profile photo)
+  - All household data if you are the owner
+
+- **Retained for legal compliance (90 days maximum):**
+  - Transaction logs (if applicable for premium subscriptions)
+  - Payment records (required by tax and financial regulations)
+  - These are anonymized and cannot be linked back to you
+
+### 11.3 Important Warnings
+
+**⚠️ Account deletion is permanent and irreversible.** Once deleted:
+
+- You **cannot recover** your expenses, incomes, or receipts
+- If you are a household owner, **all household members will lose access** to shared data
+- You will need to **create a new account** if you want to use TallyPod again
+- We **cannot restore** deleted data, even if you contact us immediately after deletion
+
+### 11.4 Alternative: Export Your Data Before Deleting
+
+We **strongly recommend exporting your complete account data** before deletion (this is FREE for all users):
+
+1. Go to **Profile** (bottom navigation)
+2. Scroll to **Account Management** section
+3. Tap **"Export Account Data"**
+4. A ZIP file will be generated with all your data (expenses, incomes, households, settings)
+5. Share or save the file to your device or cloud storage
+6. Then proceed with account deletion if desired
+
+*Note: This basic export is compliant with GDPR Article 20 and CCPA § 1798.100 (Right to Data Portability). Premium users can also generate advanced analytics reports.*
+
+---
+
+## 12. Legal Compliance
 
 This Privacy Policy complies with:
 
