@@ -123,7 +123,7 @@ Dependiendo de tu ubicación, puedes tener los siguientes derechos:
 - **Acceso:** Ver todos tus datos en la app
 - **Corrección:** Editar o actualizar tu información en cualquier momento
 - **Eliminación:** Eliminar todos tus datos desde Perfil > Eliminar Todos los Datos
-- **Exportación:** Exportar tus datos a formato CSV
+- **Exportación:** Exportar todos los datos de tu cuenta en formato legible por máquina (CSV/TXT) - **GRATIS para todos los usuarios** (cumplimiento GDPR/CCPA). Los usuarios Premium también tienen acceso a reportes de análisis avanzados con gráficos y tendencias.
 
 ### 6.2 Derechos GDPR (Usuarios de la UE)
 
@@ -184,7 +184,77 @@ Si tienes preguntas, inquietudes o solicitudes respecto a tu privacidad o esta p
 
 ---
 
-## 11. Cumplimiento Legal
+## 11. Eliminación de Cuenta
+
+### 11.1 Cómo Eliminar tu Cuenta
+
+Puedes eliminar permanentemente tu cuenta de TallyPod y todos los datos asociados en cualquier momento. Hay dos formas de hacerlo:
+
+**Método 1: Eliminar desde la App (Recomendado)**
+
+1. Abre TallyPod y ve a **Perfil** (navegación inferior)
+2. Desplázate hacia abajo hasta la sección **Gestión de Cuenta**
+3. Toca **"Eliminar Todos los Datos"**
+4. Lee el mensaje de advertencia cuidadosamente (esta acción es irreversible)
+5. Confirma la eliminación
+6. Se cerrará tu sesión automáticamente
+
+**Método 2: Solicitar Eliminación por Email**
+
+Si no puedes acceder a la app o prefieres solicitar la eliminación por email:
+
+- Envía un correo a cephalopodlabs@gmail.com
+- Asunto: "Solicitud de Eliminación de Cuenta"
+- Incluye: Tu dirección de correo registrada y motivo (opcional)
+- Procesaremos tu solicitud en un plazo de **48 horas**
+
+### 11.2 Qué Datos se Eliminan
+
+Cuando eliminas tu cuenta, los siguientes datos se eliminan permanentemente:
+
+- **Inmediatamente de tu dispositivo:**
+  - Todos los registros de gastos (recibos, montos, categorías, descripciones)
+  - Todas las fuentes de ingresos y períodos de pago
+  - Todas las imágenes de recibos almacenadas localmente
+  - Preferencias de usuario (tema, idioma, modo de vista)
+  - Membresías e invitaciones de hogares
+  - Base de datos SQLite local (completamente eliminada)
+
+- **En un plazo de 30 días de los servidores en la nube:**
+  - Todos los datos almacenados en Supabase (base de datos PostgreSQL)
+  - Información de cuenta de usuario (correo, nombre, foto de perfil)
+  - Todos los datos del hogar si eres el propietario
+
+- **Retenidos por cumplimiento legal (90 días máximo):**
+  - Registros de transacciones (si aplica para suscripciones premium)
+  - Registros de pagos (requeridos por regulaciones fiscales y financieras)
+  - Estos se anonimizan y no pueden vincularse de vuelta a ti
+
+### 11.3 Advertencias Importantes
+
+**⚠️ La eliminación de cuenta es permanente e irreversible.** Una vez eliminada:
+
+- **No puedes recuperar** tus gastos, ingresos o recibos
+- Si eres propietario de un hogar, **todos los miembros perderán acceso** a los datos compartidos
+- Necesitarás **crear una nueva cuenta** si quieres usar TallyPod nuevamente
+- **No podemos restaurar** datos eliminados, incluso si nos contactas inmediatamente después de la eliminación
+
+### 11.4 Alternativa: Exporta tus Datos Antes de Eliminar
+
+**Recomendamos encarecidamente exportar todos los datos de tu cuenta** antes de eliminarla (esto es GRATIS para todos los usuarios):
+
+1. Ve a **Perfil** (navegación inferior)
+2. Desplázate a la sección **Gestión de Cuenta**
+3. Toca **"Exportar Datos de Cuenta"**
+4. Se generará un archivo ZIP con todos tus datos (gastos, ingresos, hogares, configuraciones)
+5. Comparte o guarda el archivo en tu dispositivo o almacenamiento en la nube
+6. Luego procede con la eliminación de cuenta si lo deseas
+
+*Nota: Esta exportación básica cumple con el Artículo 20 del GDPR y el § 1798.100 de CCPA (Derecho a la Portabilidad de Datos). Los usuarios Premium también pueden generar reportes de análisis avanzados.*
+
+---
+
+## 12. Cumplimiento Legal
 
 Esta Política de Privacidad cumple con:
 
